@@ -78,3 +78,8 @@ section {
     justify-content: space-around;
 
 }
+
+.section-img{
+    display: flex;
+    float: right;
+}
