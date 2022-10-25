@@ -51,7 +51,7 @@ p {
     align-items: center;
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Orbitron', sans-serif;;
+    font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -88,4 +88,21 @@ section {
 
 .section-text{
     margin-top: 10px;
+}
+
+.banner-services{
+    margin: 25px 0 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.banner-services-right{
+    margin-right: 10px;
+    text-align: center;
+}
+
+.banner-services-left{
+    margin-left: 10px;
+    text-align: center;
 }
