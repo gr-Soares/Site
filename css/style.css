@@ -22,30 +22,33 @@ p {
 
 .header{
     background-color:gray;
+    align-items: center;
 }
 
-nav {
+.header nav {
     display: flex;
+    justify-content: space-between;
     width: 90%;
     margin: auto;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 10vh;
 }
 
-.nav-menu{
-    list-style: none;
+.nav-menu ul{
     display: flex;
-    margin-left: 50px;
+    align-items: center;
+    height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-menu li{
+.nav-menu ul li{
+    list-style: none;
     letter-spacing: 2px;
     margin-left: 30px;
 }
 
 .logo {
+    display: flex;
     color:white;
+    align-items: center;
     font-size: 24px;
     font-weight: 700;
     font-family: 'Orbitron', sans-serif;;
@@ -71,11 +74,8 @@ section {
 }
 
 .section-img{
+    padding-top: 45px;
     float: right;
-}
-
-.section-img img{
-    height: 280px;
 }
 
 .section-intro{
