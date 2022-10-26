@@ -32,7 +32,7 @@ p {
 .header nav {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -61,11 +61,12 @@ p {
 }
 
 .main {
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
 section {
+    padding: 45px 0;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -102,6 +103,7 @@ section {
 }
 
 .services {
+    padding: 45px 0;
     margin: 25px 0 25px 0;
     display: flex;
     align-items: center;
@@ -163,6 +165,7 @@ section {
 }
 
 .banner{
+    margin: 0 -5%;
     background-color: rgb(35, 93, 97);
     padding: 40px;
     height: 400px;
@@ -170,7 +173,7 @@ section {
 
 .banner .inter{
     width: 70%;
-    height: 70%;
+    height: 95%;
     margin: 20px;
     background-color: rgb(59, 148, 155);
 }
@@ -206,7 +209,7 @@ section {
     border: none;
     color: gray;
     padding: 10px 12px;
-    margin: 100px 10px;
+    margin: 215px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
