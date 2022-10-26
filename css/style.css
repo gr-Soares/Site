@@ -100,11 +100,55 @@ section {
 }
 
 .servicesRight{
-    margin-right: 10px;
+    width: 50%;
     text-align: center;
+    background-color: rgb(59, 148, 155);
+}
+
+.servicesRight h2{
+    margin: 8px;
+    color: white;
+}
+
+.servicesRight .button {
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 5px 8px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.servicesRight p{
+    color: white;
 }
 
 .servicesLeft{
-    margin-left: 10px;
+    width: 50%;
     text-align: center;
+    background-color: rgb(35, 93, 97);
+}
+
+.servicesLeft h2{
+    margin: 8px;
+    color: white;
+}
+
+.servicesLeft .button {
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 5px 8px;
+    margin: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.servicesLeft p{
+    color: white;
 }
