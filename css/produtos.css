@@ -115,19 +115,35 @@ section {
     text-align: center;
 }
 
-.section-lst {
+.section-subtitle {
     color: gray;
+    margin-top: 12px;
+    display: inline-flex;
+    width: 10%;
+    font-size: 20px;
+    line-height:20px;
+
 }
 
 .prod-menu {
     display: inline-flex;
-    list-style-type: none;
-    justify-content: center;
-    width: 100%;
-    margin: 5px;
+    justify-content:space-between;
+    width: 85%;
+    margin: 10px;
 }
 
 .section-prod {
-    width: 100%;
+    width: 90%;
     margin-top: 15%;
+}
+.section-ptext {
+    color: black;
+    width: 85%;
+    font-size: 15px;
+    line-height: 15px;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
