@@ -74,9 +74,18 @@ section {
     width: 60%;
 }
 
-.section-img{
+.section-vid{
     margin: auto;
-    padding-top: 45px;
+    padding-top: 3%;
+}
+.section-vid iframe{
+    margin-left: 55px;
+}
+.section-vtext{
+    color: black;
+    font-size: 15px;
+    width: 76%;
+    margin-left: 55px;
 }
 
 .section-img img{
@@ -89,13 +98,14 @@ section {
 }
 
 .section-title{
-    margin-top: 12px;
-    width: 230px;
+    margin-top: -22px;
     display: inline-flex;
+    font-size: 40px;
 }
 
 .section-text{
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 .services{
@@ -128,17 +138,18 @@ section {
 .prod-menu {
     display: inline-flex;
     justify-content:space-between;
-    width: 85%;
-    margin: 10px;
+    width: 110%;
+    margin: 125px;
+    margin-left: 10px;
 }
 
 .section-prod {
     width: 90%;
-    margin-top: 15%;
+    margin-top: 7%;
 }
 .section-ptext {
     color: black;
-    width: 85%;
+    width: 60%;
     font-size: 15px;
     line-height: 15px;
 }
@@ -146,4 +157,15 @@ section {
     display: flex;
     flex-direction: column;
     width: 20%;
+}
+.section-title2{
+    margin-top: -22px;
+    display: inline-flex;
+    font-size: 40px;
+}
+.section-pimg{
+    
+}
+.section-pimg img{
+    width: 50%;
 }
