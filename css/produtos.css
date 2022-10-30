@@ -62,7 +62,7 @@ p {
 
 .main {
     width: 90%;
-    margin: auto;
+    margin: 0;
 }
 
 section {
@@ -99,12 +99,14 @@ section {
 
 .section-title{
     margin-top: -22px;
+    margin-left: 10px;
     display: inline-flex;
     font-size: 40px;
 }
 
 .section-text{
     margin-top: 15px;
+    margin-left: 30px;
     font-size: 20px;
 }
 
@@ -126,7 +128,7 @@ section {
 }
 
 .section-subtitle {
-    color: gray;
+    color: rgb(0, 0, 0);
     margin-top: 12px;
     display: inline-flex;
     width: 10%;
@@ -138,9 +140,10 @@ section {
 .prod-menu {
     display: inline-flex;
     justify-content:space-between;
-    width: 110%;
-    margin: 125px;
-    margin-left: 10px;
+    width: 125%;
+    margin: 30px;
+    margin-left: 0px;
+    background-color: rgb(172, 172, 172) ;
 }
 
 .section-prod {
@@ -148,7 +151,7 @@ section {
     margin-top: 7%;
 }
 .section-ptext {
-    color: black;
+    color: white;
     width: 60%;
     font-size: 15px;
     line-height: 15px;
@@ -160,6 +163,7 @@ section {
 }
 .section-title2{
     margin-top: -22px;
+    margin-left: 10px;
     display: inline-flex;
     font-size: 40px;
 }
@@ -168,4 +172,9 @@ section {
 }
 .section-pimg img{
     width: 50%;
+}
+.button-products{
+    margin-bottom: 5%;
+    justify-content: center;
+    color: black;
 }
