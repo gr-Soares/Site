@@ -62,7 +62,7 @@ p {
 
 .main {
     width: 90%;
-    margin: auto;
+    margin: 0;
 }
 
 section {
@@ -74,9 +74,18 @@ section {
     width: 60%;
 }
 
-.section-img{
+.section-vid{
     margin: auto;
-    padding-top: 45px;
+    padding-top: 3%;
+}
+.section-vid iframe{
+    margin-left: 55px;
+}
+.section-vtext{
+    color: black;
+    font-size: 15px;
+    width: 76%;
+    margin-left: 55px;
 }
 
 .section-img img{
@@ -89,13 +98,16 @@ section {
 }
 
 .section-title{
-    margin-top: 12px;
-    width: 230px;
+    margin-top: -22px;
+    margin-left: 10px;
     display: inline-flex;
+    font-size: 40px;
 }
 
 .section-text{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 .services{
@@ -115,19 +127,54 @@ section {
     text-align: center;
 }
 
-.section-lst {
-    color: gray;
+.section-subtitle {
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    display: inline-flex;
+    width: 10%;
+    font-size: 20px;
+    line-height:20px;
+
 }
 
 .prod-menu {
     display: inline-flex;
-    list-style-type: none;
-    justify-content: center;
-    width: 100%;
-    margin: 5px;
+    justify-content:space-between;
+    width: 125%;
+    margin: 30px;
+    margin-left: 0px;
+    background-color: rgb(172, 172, 172) ;
 }
 
 .section-prod {
-    width: 100%;
-    margin-top: 15%;
+    width: 90%;
+    margin-top: 7%;
+}
+.section-ptext {
+    color: white;
+    width: 60%;
+    font-size: 15px;
+    line-height: 15px;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.section-title2{
+    margin-top: -22px;
+    margin-left: 10px;
+    display: inline-flex;
+    font-size: 40px;
+}
+.section-pimg{
+    
+}
+.section-pimg img{
+    width: 50%;
+}
+.button-products{
+    margin-bottom: 5%;
+    justify-content: center;
+    color: black;
 }
