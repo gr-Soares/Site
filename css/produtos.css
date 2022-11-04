@@ -32,7 +32,7 @@ p {
 .header nav {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -79,13 +79,13 @@ section {
     padding-top: 3%;
 }
 .section-vid iframe{
-    margin-left: 55px;
+    margin-left: 15%;
 }
 .section-vtext{
     color: black;
     font-size: 15px;
     width: 76%;
-    margin-left: 55px;
+    margin-left: 15%;
 }
 
 .section-img img{
@@ -99,7 +99,7 @@ section {
 
 .section-title{
     margin-top: -22px;
-    margin-left: 10px;
+    margin-left: 10%;
     display: inline-flex;
     font-size: 40px;
 }
@@ -130,10 +130,10 @@ section {
 .section-subtitle {
     color: rgb(0, 0, 0);
     margin-top: 12px;
-    display: inline-flex;
-    width: 10%;
+    width: 100%;
     font-size: 20px;
     line-height:20px;
+    text-align: center;
 
 }
 
@@ -154,10 +154,10 @@ section {
 }
 .section-ptext {
     color: white;
-    width: 60%;
+    width: 100%;
     font-size: 15px;
     line-height: 15px;
-    text-align: left;
+    text-align: center;
 }
 .position{
     display: flex;
@@ -167,12 +167,12 @@ section {
 }
 .section-title2{
     margin-top: -22px;
-    margin-left: 10px;
+    margin-left: 10%;
     display: inline-flex;
     font-size: 40px;
 }
 .section-pimg{
-    
+    text-align: center;
 }
 .section-pimg img{
     width: 50%;
