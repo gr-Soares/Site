@@ -13,13 +13,13 @@ a {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     color: gray;
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: gray;
 }
@@ -83,7 +83,7 @@ section {
 }
 .section-vtext{
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     width: 76%;
     margin-left: 15%;
 }
@@ -98,16 +98,15 @@ section {
 }
 
 .section-title{
-    margin-top: -22px;
-    margin-left: 3%;
-    display: inline-flex;
-    font-size: 40px;
+    margin-left: 5%;
+    display: flex;
+    font-size: 30px;
 }
 
 .section-text{
     margin-top: 15px;
-    margin-left: 30px;
-    font-size: 20px;
+    margin-left: 5%;
+    font-size: 18px;
 }
 
 .services{
@@ -138,14 +137,13 @@ section {
 }
 
 .prod-menu {
-    display: inline-flex;
+    display: flex;
     justify-content:space-between;
+    align-items: center;
     width: 100%;
-    margin: 30px 0px 30px 0px;
-    margin-left: 0px;
+    height: 360px;
+    margin-bottom: 50px;
     background-color: rgb(172, 172, 172) ;
-    padding-top: 15px;
-    padding-bottom: 10px;
 }
 
 .section-prod {
@@ -154,6 +152,7 @@ section {
 }
 .section-ptext {
     color: white;
+    margin-top: 12px;
     width: 100%;
     font-size: 15px;
     line-height: 15px;
@@ -163,13 +162,14 @@ section {
     display: flex;
     flex-direction: column;
     width: 20%;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .section-title2{
-    margin-top: -22px;
-    margin-left: 2%;
-    display: inline-flex;
+    margin-left: 3%;
+    display: flex;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 .section-pimg{
     text-align: center;
@@ -181,4 +181,46 @@ section {
     margin-bottom: 5%;
     justify-content: center;
     color: black;
+}
+
+.footer {
+    background-color: gray;
+    align-items: center;
+}
+
+.footer .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100px;
+    margin: auto;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu ul {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+.copright{
+    width: 95%;
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.copright .cp-text{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
 }
