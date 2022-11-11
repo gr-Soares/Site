@@ -183,20 +183,7 @@ section {
     color: black;
 }
 
-.sectionrec{
-    display: flex;
-    margin-bottom: 30px;
-}
 
-.sectionrec .recimg{
-    margin-left: 35px;
-    margin-top: 40px;
-}
-
-.sectionrec .section-info{
-    margin-top:auto;
-    margin-bottom:auto;
-}
 
 .footer {
     margin-top: 90px;
