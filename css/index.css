@@ -100,6 +100,7 @@ section {
 
 .section-title {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .services {
@@ -131,6 +132,7 @@ section {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .servicesRight p{
@@ -158,6 +160,7 @@ section {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .servicesLeft p{
@@ -214,6 +217,7 @@ section {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .section-service{
@@ -230,12 +234,13 @@ section {
 
 .section-service .section-inter .section-info{
     width: 100%;
-    height: 160px;
+    height: 200px;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
 .section-service .section-img {
-    width: 400px;
+    width: 500px;
 }
 
 .footer {
